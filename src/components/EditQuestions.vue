@@ -4,6 +4,7 @@
       <b-row class="text-center">
         <b-col></b-col>
         <b-col md="8">
+          <p> Anzahl an Fragen: {{ListOfQuestions.length}}</p>
           <br />
           <AddQuestions
             v-bind:questions="ListOfQuestions"
@@ -38,7 +39,7 @@ export default {
     },
     addQuestion(question) {
       this.$emit("add-question", question);
-    },
+    }
   },
 };
 </script>

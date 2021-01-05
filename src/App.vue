@@ -47,36 +47,7 @@ export default {
   },
   data() {
     return {
-      AllQuestions: [
-        {
-          pos: 0,
-          title: "Was sind die beliebtesten Vorurteile gegenüber Deutschen?",
-          antwort1: 515,
-          antwort1_bezeichnung: "Kartoffel",
-          antwort2: 120,
-          antwort2_bezeichnung: "Brot",
-          antwort3: 50,
-          antwort3_bezeichnung: "Sauerkraut",
-          antwort4: 30,
-          antwort4_bezeichnung: "Bratwurst",
-          antwort5: 2,
-          antwort5_bezeichnung: "Bier",
-        },
-        {
-          pos: 1,
-          title: "Eine Frage?",
-          antwort1: 515,
-          antwort1_bezeichnung: "",
-          antwort2: 120,
-          antwort2_bezeichnung: "",
-          antwort3: 50,
-          antwort3_bezeichnung: "",
-          antwort4: 30,
-          antwort4_bezeichnung: "",
-          antwort5: 2,
-          antwort5_bezeichnung: "",
-        },
-      ],
+      AllQuestions: [{title:"Gemüse?",pos:1, antwort1:10, antwort1_bezeichnung:"Kartoffel",antwort2:8, antwort2_bezeichnung:"Brokkoli", antwort3:6, antwort3_bezeichnung:"Kohl", antwort4:3, antwort4_bezeichnung:"Wirsing",antwort5:10, antwort5_bezeichnung:"Knoblauch"}, {title:"Obst?",pos:2, antwort1:10, antwort1_bezeichnung:"Apfel",antwort2:8, antwort2_bezeichnung:"Birne", antwort3:6, antwort3_bezeichnung:"Banane", antwort4:3, antwort4_bezeichnung:"Tomate",antwort5:10, antwort5_bezeichnung:"Rahbarba"}],
     };
   },
   methods: {

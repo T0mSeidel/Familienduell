@@ -13,7 +13,7 @@
 
       <b-form inline>
         <b-form-group
-          label-cols-sm="2"
+          label-cols-sm="3"
           label="Position Frage"
           label-for="inline-form-input-position"
         >
